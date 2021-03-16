@@ -32,13 +32,13 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 - [Angular](https://angular.io/)
 - [Node](https://nodejs.org/es/)
 - [Git](https://git-scm.com/)
-- [Instalar Docker y SQL Server en macOS](Clases/InstalacionSQLserverMacOS.md)
+- [Instalar Docker y SQL Server en macOS](Clases/guias/InstalacionSQLserverMacOS.md)
 
 ---
 
 ## Clases
 
-1. [Comandos .Net Core](/Clases/ComandosNetCore.md)
+1. [Comandos .Net Core](/Clases/guias/ComandosNetCore.md)
 
 ## Deploy
 
