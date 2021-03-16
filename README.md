@@ -38,7 +38,7 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 
 ## Clases
 
-1. [Comandos .Net Core](/Clases/guias/ComandosNetCore.md)
+1. [Comandos .Net Core](/Clases/Guias/ComandosNetCore.md)
 
 ## Deploy
 
