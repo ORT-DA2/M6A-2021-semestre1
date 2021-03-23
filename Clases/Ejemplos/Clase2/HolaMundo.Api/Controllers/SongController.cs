@@ -56,15 +56,15 @@ namespace HolaMundo.Api.Controllers
     }
 
     [HttpGet]
-    public IActionResult GetSongByName([FromQuery] string name)
+    public IActionResult GetAll([FromQuery] string name)
     {
 
-      Song lookedSong = Playlist.Find(s => s.Name.ToLower() == name.ToLower());
-      if (lookedSong != null)
+      if (name != null)
       {
+        Song lookedSong = Playlist.Find(s => s.Name.ToLower() == name.ToLower());
         return Ok(lookedSong);
       }
-      return Ok("No se encuentra la cancion: " + name);
+      return Ok(Playlist);
     }
 
     [HttpPost]
