@@ -32,13 +32,28 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 - [Angular](https://angular.io/)
 - [Node](https://nodejs.org/es/)
 - [Git](https://git-scm.com/)
-- [Instalar Docker y SQL Server en macOS](Clases/guias/InstalacionSQLserverMacOS.md)
+- [Instalar Docker y SQL Server en macOS](Clases/Guias/InstalacionSQLserverMacOS.md)
 
 ---
 
 ## Clases
 
+1. [Introduccion a WebAPI - Clase 2](/Clases/Ejemplos/Clase2)
+2. [WebAPI params, request, response - Clase 3](/Clases/Ejemplos/Clase3)
+
+## Guias
+
 1. [Comandos .Net Core](/Clases/Guias/ComandosNetCore.md)
+2. [Introduccion a WebApi y Rest](Clases/Guias/APIsREST.md)
+3. [Inyeccion de dependencias](Clases/Guias/InyeccionDependencias.md)
+4. [Mocking](Clases/Guias/Mocking.md)
+5. [EntityFrameworkCore](Clases/Guias/EntityFrameworkCore.md)
+
+## Mas ejemplos
+
+1. [WebApi](/Clases/MasEjemplos/WebApi)
+2. [Mocking](/Clases/MasEjemplos/Mocking)
+3. [EntityFrameworkCore](/Clases/MasEjemplos/EntityFrameworkCore)
 
 ## Deploy
 
