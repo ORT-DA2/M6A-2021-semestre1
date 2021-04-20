@@ -48,6 +48,7 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 3. [Inyeccion de dependencias](Clases/Guias/InyeccionDependencias.md)
 4. [Mocking](Clases/Guias/Mocking.md)
 5. [EntityFrameworkCore](Clases/Guias/EntityFrameworkCore.md)
+6. [Filters](Clases/Guias/Filters.md)
 
 ## Mas ejemplos
 
