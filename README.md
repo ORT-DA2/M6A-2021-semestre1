@@ -49,12 +49,14 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 4. [Mocking](Clases/Guias/Mocking.md)
 5. [EntityFrameworkCore](Clases/Guias/EntityFrameworkCore.md)
 6. [Filters](Clases/Guias/Filters.md)
+7. [Reflection](Clases/Guias/Reflection.md)
 
 ## Mas ejemplos
 
 1. [WebApi](/Clases/MasEjemplos/WebApi)
 2. [Mocking](/Clases/MasEjemplos/Mocking)
 3. [EntityFrameworkCore](/Clases/MasEjemplos/EntityFrameworkCore)
+4. [Reflection](/Clases/Ejemplos/Reflection)
 
 ## Deploy
 
