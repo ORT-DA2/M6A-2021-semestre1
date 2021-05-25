@@ -36,11 +36,6 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 
 ---
 
-## Clases
-
-1. [Introduccion a WebAPI - Clase 2](/Clases/Ejemplos/Clase2)
-2. [WebAPI params, request, response - Clase 3](/Clases/Ejemplos/Clase3)
-
 ## Guias
 
 1. [Comandos .Net Core](/Clases/Guias/ComandosNetCore.md)
@@ -51,12 +46,18 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 6. [Filters](Clases/Guias/Filters.md)
 7. [Reflection](Clases/Guias/Reflection.md)
 
-## Mas ejemplos
+## Ejemplos NET Core
 
-1. [WebApi](/Clases/MasEjemplos/WebApi)
-2. [Mocking](/Clases/MasEjemplos/Mocking)
-3. [EntityFrameworkCore](/Clases/MasEjemplos/EntityFrameworkCore)
-4. [Reflection](/Clases/Ejemplos/Reflection)
+1. [Introduccion a WebAPI - Clase 2](/Clases/Ejemplos/Clase2)
+2. [WebAPI params, request, response - Clase 3](/Clases/Ejemplos/Clase3)
+3. [WebApi](/Clases/MasEjemplos/WebApi)
+4. [Mocking](/Clases/MasEjemplos/Mocking)
+5. [EntityFrameworkCore](/Clases/MasEjemplos/EntityFrameworkCore)
+6. [Reflection](/Clases/Ejemplos/Reflection)
+
+## Ejemplos Angular
+
+1. [Bindings, Services, Pipes, (Input-Output), Rounting, Guards](/Clases/Ejemplos/EjemploAngular/mi-primera-app)
 
 ## Deploy
 
