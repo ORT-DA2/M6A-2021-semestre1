@@ -1,47 +1,81 @@
+import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Product } from '../../models/product';
+import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ProductService {
-  constructor() {
-    this.nextId = 1;
-    this.products = this.initializateProducts();
+  uri = `${environment.API_HOST_URL}products`
+
+  constructor(private http: HttpClient) { }
+
+  loading: boolean = false;
+
+  getProducts(): Observable<Product> {
+
+    const headers = new HttpHeaders()
+    .set('header1', 'valor1')
+    .set('header2', 'valor2')
+    .set('header3', 'valor3');
+
+  const params = new HttpParams()
+    .set('query1', 'valor1')
+    .set('query2', 'valor2');
+
+  const options = {
+    headers,
+    params
   }
 
-  products: Product[];
-  nextId: number;
-
-  getProducts() {
-    return this.products;
+    return this.http.get<Product>(this.uri, options);
   }
 
   deleteProduct(product: Product) {
-    const id = this.products.indexOf(product, 0);
-    if (id === -1) alert('No existe producto');
-    else this.products.splice(id, 1);
+    return this.http.delete(`${this.uri}/${product.id}`);
   }
 
-  getProduct(id: number) {
-    return this.products.filter((p) => p.id == id)[0];
+  getProduct(id: number): Observable<Product> {
+    return this.http.get<Product>(`${this.uri}/${id}`);
   }
+
+  postProduct(product: Product): Observable<any> {
+    return this.http.post(this.uri, product);
+  }
+
+  showLoading() {
+    this.loading = true;
+  }
+
+  hideLoading() {
+    this.loading = false;
+  }
+
+  isLoading() {
+    return this.loading;
+  }
+
 
   existProduct(id: number) {
-    return this.products.filter(p => p.id == id).length > 0;
+
+  // Ejemplo de headers y query params
+  const headers = new HttpHeaders()
+    .set('header1', 'valor1')
+    .set('header2', 'valor2')
+    .set('header3', 'valor3');
+
+  const params = new HttpParams()
+    .set('query1', 'valor1')
+    .set('query2', 'valor2');
+
+  const options = {
+    headers,
+    params
   }
 
-  initializateProducts() {
-    let tv = new Product('Smart TV', 600);
-    tv.id = this.nextId;
-    this.nextId++;
-    let notebook = new Product('Notebook', 1400);
-    notebook.id = this.nextId;
-    this.nextId++;
-    let keyboard = new Product('Teclado mécanico', 250);
-    keyboard.id = this.nextId;
-    this.nextId++;
-
-    return new Array<Product>(tv, notebook, keyboard);
+    return true;
   }
+
 }
