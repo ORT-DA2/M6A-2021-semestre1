@@ -11,7 +11,6 @@
 - Email: [fierrodilorenzo@gmail.com](mailto:fierrodilorenzo@gmail.com)
 - Email: [nicoo.her@hotmail.com](mailto:fierrodilorenzo@gmail.com)
 - Grupo whatsapp: [Link](https://chat.whatsapp.com/IKpopM7iYJZ8kYrjEFPU6K)
-- Link de Zoom: [Link](https://ortuy.zoom.us/j/93399351782?pwd=bE9uM0pRbmVyTnRUUjludmhmQlZVUT09)
 
 ---
 
